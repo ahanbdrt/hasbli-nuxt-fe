@@ -38,7 +38,7 @@ export default {
   data() {
     return {
       //header table
-      fields: ["tanggal", "", "actions"],
+      fields: ["no", "barang", "harga","qty", "sub-total"],
       //posts data
       posts: [],
     };

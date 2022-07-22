@@ -4,7 +4,7 @@
     <b-row>
       <b-col md="12">
         <b-card class="shadow-md border-0 rounded-lg">
-          <h5>DATA TRANSAKSI</h5>
+          <h5>DATA PENJUALAN</h5>
           <hr />
           <b-button
             :to="{ name: 'transaksi-create' }"
@@ -49,7 +49,7 @@ export default {
   data() {
     return {
       //header table
-      fields: ["tanggal", "actions"],
+      fields: ["tanggal","actions"],
       //posts data
       posts: [],
     };
